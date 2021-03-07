@@ -1,0 +1,23 @@
+{
+  "name": "twitchchatbot",
+  "version": "1.0.0",
+  "author": "Emir Boyacı",
+  "description": "Twitch Chat Bot",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "coinmarketcap-api": "^3.1.1",
+    "dotenv": "^8.2.0",
+    "form-data": "^4.0.0",
+    "moment-timezone": "^0.5.33",
+    "mongodb": "^3.6.4",
+    "node-cron": "^2.0.3",
+    "nodemon": "^2.0.7",
+    "qs": "^6.9.6",
+    "tmi.js": "^1.7.1"
+  }
+}
